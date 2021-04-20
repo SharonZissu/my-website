@@ -9,8 +9,13 @@ function AboutMe() {
   return (
     <Styled.Container>
       <Navigation />
-      <Title title="About Me" before={"A"} top={-17} />
-      <Flex mt={5} align="flex-start" justify="flex-start">
+      <Title
+        title="About Me"
+        before={"A"}
+        top={-17}
+        description="Failure will never overtake me if my determination to succeed is strong enough."
+      />
+      <Flex mt={12} align="flex-start" justify="flex-start">
         <ProfileImage />
         <Details />
       </Flex>

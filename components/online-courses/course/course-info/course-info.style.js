@@ -22,13 +22,16 @@ export const CourseInfo = styled.div`
 export const By = styled.h3`
   color: #d8bf25;
   text-transform: uppercase;
+  font-size: 1.4rem;
 `;
 export const Name = styled.h2`
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   text-align: center;
 `;
 export const Hours = styled.span`
   color: #d8bf25;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 `;
+
+export const UdmeyIconContainer = styled.div``;

@@ -1,4 +1,4 @@
-import * as Styled from "./education.style";
+import * as Styled from "./education-card.style";
 import { Flex } from "../../flex/flex.style";
 
 function EducationCard({ title, location, years, summary }) {
@@ -19,7 +19,7 @@ function EducationCard({ title, location, years, summary }) {
         align="flex-start"
         justify="flex-start"
         width="100%"
-        mt={2}
+        mt={0.6}
         ml={3}
       >
         <Styled.Title>{title}</Styled.Title>

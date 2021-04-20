@@ -8,9 +8,9 @@ function OnlineCourses() {
       <Title
         title="Online Courses"
         before={"O"}
-        top={-0.5}
-        description={"A sentence about education, A sentence about education."}
-        width={55}
+        top={1}
+        description="Confidence comes from discipline and training."
+        width={75}
       />
       <Courses />
     </Styled.OnlineCourses>

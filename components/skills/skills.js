@@ -36,10 +36,10 @@ function Skills() {
       <Title
         title="My Skills"
         before={"M"}
-        top={-2}
-        description={"A sentence about skills, A sentence about skills."}
+        top={-1}
+        description="The best way to sharpen your skills is to use them."
       />
-      <Flex mt={7} ml={17}>
+      <Flex mt={12} ml={24}>
         <SkillsBox
           title="Professional"
           items={PROFFESIONAL}
@@ -51,7 +51,7 @@ function Skills() {
             title="Soft"
             items={SOFT}
             bgColor="rgba(183, 183, 183, 0.1)"
-            height={32}
+            height={47.2}
           />
         </Flex>
       </Flex>

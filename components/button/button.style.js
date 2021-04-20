@@ -4,7 +4,7 @@ export const Button = styled.button`
   padding: 1.2rem 3rem;
   background-color: ${({ bgColor }) => (bgColor ? bgColor : "#d8bf25")};
   color: white;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   border: none;
   border-radius: 10rem;
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);

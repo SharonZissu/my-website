@@ -69,17 +69,17 @@ export const onlineCourses = [
 
 export const inProgressCourses = [
   {
-    name: "Understanding TypeScript - 2021 Edition",
-    by: "Maximilian Schwarzmuller",
-    hours: 15,
-    imgName: "ts-maximilian",
-    link: "https://www.udemy.com/course/understanding-typescript/",
-  },
-  {
     name: "Next.js & React - The Complete Guide",
     by: "Maximilian Schwarzmuller",
     hours: 25,
     imgName: "next-maximilian",
     link: "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+  },
+  {
+    name: "Understanding TypeScript - 2021 Edition",
+    by: "Maximilian Schwarzmuller",
+    hours: 15,
+    imgName: "ts-maximilian",
+    link: "https://www.udemy.com/course/understanding-typescript/",
   },
 ];

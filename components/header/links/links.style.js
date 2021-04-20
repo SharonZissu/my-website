@@ -13,7 +13,7 @@ export const Container = styled.ul`
 export const Icon = styled.li`
   list-style: none;
   svg {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     color: white;
   }
 

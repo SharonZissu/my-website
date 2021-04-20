@@ -4,6 +4,9 @@ import AboutMe from "../components/about-me/about-me";
 import Education from "../components/education/education";
 import Skills from "../components/skills/skills";
 import OnlineCourses from "../components/online-courses/online-courses";
+import Projects from "../components/projects/projects";
+import Career from "../components/career/career";
+import ContactMe from "../components/contact-me/contact-me";
 
 function Home() {
   return (
@@ -13,10 +16,10 @@ function Home() {
       <Education />
       <Skills />
       <OnlineCourses />
-      {/* <Projects /> */}
+      <Projects />
       {/* <Interests /> */}
-      {/* <Career /> */}
-      {/* <ContactMe /> */}
+      <Career />
+      <ContactMe />
     </Fragment>
   );
 }

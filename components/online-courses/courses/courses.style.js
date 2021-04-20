@@ -2,10 +2,25 @@ import styled from "styled-components";
 
 export const Courses = styled.div`
   display: flex;
-  width: 78rem;
+  /* width: 78rem; */
+  width: 102rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 7rem;
-  margin-left: 15rem;
+  margin-top: 10rem;
+  margin-left: 24rem;
+`;
+
+export const InProgressCourses = styled(Courses)`
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 0;
+  padding-left: 1.6rem;
+`;
+
+export const H3 = styled.h3`
+  color: white;
+  font-size: 3rem;
+  width: 78rem;
+  margin: 2rem 0 2rem 27rem;
 `;

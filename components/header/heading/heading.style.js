@@ -14,7 +14,7 @@ export const Title = styled.h1`
 `;
 export const Span = styled.span`
   color: ${({ color }) => (color ? color : "white")};
-  font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "6rem")};
+  font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "8rem")};
   font-weight: bold;
 `;
 

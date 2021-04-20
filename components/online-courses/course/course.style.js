@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Course = styled.div`
-  width: 24rem;
-  height: 13.5rem;
-  margin: 1rem;
+  /* width: 24rem; */
+  /* height: 13.5rem; */
+  width: 30rem;
+  height: 16.9rem;
+  margin: 1.6rem;
   background-color: red;
   position: relative;
   transition: all 0.4s;
@@ -22,29 +24,15 @@ export const Course = styled.div`
   & :hover div:nth-child(2) {
     opacity: 1 !important;
     visibility: visible !important;
-    /* z-index: 9 !important; */
+  }
+  &:hover {
+    transform: scale(1.1);
   }
 `;
 
 export const ImageContainer = styled.div`
   position: relative;
   z-index: 5;
-  /* transition: all 0.4s; */
-  /* & ::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(216, 191, 37, 0.6);
-    z-index: 5;
-  }
-  &:hover::after {
-    visibility: hidden;
-    opacity: 0;
-  }
-  &:hover {
-    z-index: 0;
-  } */
+  width: 30rem;
+  height: 16.9rem;
 `;

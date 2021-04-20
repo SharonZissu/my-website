@@ -9,8 +9,10 @@ function Course(props) {
         <Image
           src={`/images/courses/${props.imgName}.png`}
           alt={`${props.name} course image`}
-          width={240}
-          height={135}
+          // width={240}
+          //   height={135}
+          width={300}
+          height={169}
           layout="responsive"
         />
       </Styled.ImageContainer>

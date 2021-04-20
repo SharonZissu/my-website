@@ -9,4 +9,9 @@ export const Flex = styled.div`
   margin-left: ${({ ml }) => `${ml}rem`};
   width: ${({ width }) => width};
   padding: ${({ p }) => `${p}rem`};
+  padding-left: ${({ pl }) => `${pl}rem`};
+  padding-right: ${({ pr }) => `${pr}rem`};
+  padding-top: ${({ pt }) => `${pt}rem`};
+  padding-bottom: ${({ pb }) => `${pb}rem`};
+  text-align: ${({ textAlign }) => textAlign};
 `;

@@ -13,7 +13,9 @@ export const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px
- 
+  /* font-size: 75%; //1rem = 12px */
+  /* font-size: 81.25%; //1rem = 13px */
+  /* zoom: 100%; */
 }
 body {
   line-height: 1.6;
@@ -23,7 +25,7 @@ body {
 }
 
 section {
-  padding: 10rem 0 10rem 32rem;
+  padding: 10rem 0 10rem 40rem;
 
 }
 

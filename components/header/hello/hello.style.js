@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 8.4rem;
-  height: 3.6rem;
+  width: 9rem;
+  height: 4.2rem;
   background-color: #d8bf25;
   border-radius: 0.8rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: white;
   font-weight: bold;
   display: flex;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Image = styled.div`
-  width: 25rem;
-  height: 31.7rem;
+  width: 30rem;
+  height: 38.1rem;
   outline: 1rem solid white;
   position: relative;
   z-index: 5;

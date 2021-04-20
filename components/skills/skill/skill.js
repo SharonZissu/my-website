@@ -8,7 +8,10 @@ function Skill({ name, percentage, bgColor, height }) {
         <Styled.Name bgColor={bgColor}>{name}</Styled.Name>
         <Styled.PercentageNumber>{percentage}%</Styled.PercentageNumber>
       </Flex>
-      <Styled.PercentageLine percentage={percentage}></Styled.PercentageLine>
+      <Styled.PercentageLine
+        percentage={percentage}
+        bgColor={bgColor}
+      ></Styled.PercentageLine>
     </Styled.Skill>
   );
 }
