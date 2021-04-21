@@ -7,6 +7,7 @@ import Links from "../links/links";
 
 function ContactMe() {
   async function submitHandler(contactDetails) {
+    console.log(contactDetails);
     const response = await fetch("/api/contact", {
       method: "POST",
       body: JSON.stringify(contactDetails),

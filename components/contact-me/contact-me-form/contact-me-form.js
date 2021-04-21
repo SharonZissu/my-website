@@ -43,7 +43,7 @@ function ContactMeForm({ onSubmit }) {
           ref={messageInputRef}
           required
         />
-        {/* <Styled.Button>Send</Styled.Button> */}
+        <Styled.Button>Send</Styled.Button>
       </Flex>
     </form>
   );

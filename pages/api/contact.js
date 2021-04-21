@@ -7,7 +7,9 @@ async function handler(req, res) {
     return;
   }
   const { name, email, message } = req.body;
-
+  console.log(name);
+  console.log(email);
+  console.log(message);
   if (
     !email ||
     !email.includes("@") ||
@@ -23,6 +25,7 @@ async function handler(req, res) {
   try {
     client = await connectDatabase();
   } catch (err) {
+    console.log("#####################################");
     client.close();
     res.json({ message: "Cannot connect to db" });
     return;
