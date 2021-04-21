@@ -13,9 +13,6 @@ const inputStyles = css`
   position: relative;
   z-index: 3;
   color: #5e5e5e;
-  :focus {
-    outline: none;
-  }
 `;
 
 export const Input = styled.input`

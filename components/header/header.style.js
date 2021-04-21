@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to right, #111111 52.05%, #d8bf25 52.1%);
   position: relative;
