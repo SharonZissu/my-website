@@ -18,19 +18,22 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px
   overflow-x: hidden;
-  @media (max-width: 450px){
-    width: 37.5rem;
-  }
+  @media (max-width: 450px) {
+    /* font-size: 50%; //1rem = 10px */
+
+  
+ }
   
 }
 body {
   line-height: 1.6;
   min-height: 100vh;
-
+  
   font-family: "Hammersmith One", sans-serif;
-  @media (max-width: 450px){
-    width: 37.5rem;
-  }
+ @media (max-width: 450px) {
+  position:absolute;
+
+ }
 }
 
 section {
@@ -39,5 +42,9 @@ section {
   
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 `;

@@ -7,10 +7,14 @@ import OnlineCourses from "../components/online-courses/online-courses";
 import Projects from "../components/projects/projects";
 import Career from "../components/career/career";
 import ContactMe from "../components/contact-me/contact-me";
-
+import Head from "next/head";
 function Home() {
   return (
     <Fragment>
+      {/* <Head>
+        <title>My page title</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head> */}
       <Header />
       <AboutMe />
       <Education />

@@ -26,6 +26,10 @@ export default class MyDocument extends Document {
         <Head>
           <title>My page</title>
           {/* Step 5: Output the styles in the head  */}
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           {this.props.styleTags}
           <link
             rel="preconnect"
