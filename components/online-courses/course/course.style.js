@@ -6,7 +6,6 @@ export const Course = styled.div`
   width: 30rem;
   height: 16.9rem;
   margin: 1.6rem;
-  background-color: red;
   position: relative;
   transition: all 0.4s;
   z-index: 1;

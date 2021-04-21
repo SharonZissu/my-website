@@ -30,7 +30,7 @@ const DUMMY_CARDS = [
     id: 4,
     years: ["Present"],
     title: "Online Courses",
-    location: "Udmey",
+    location: "Udemy",
     summary:
       "During the final year of my degree, I decided to start studying web development independently. I acquired most of my practical knowledge through a variety of online courses.",
   },
