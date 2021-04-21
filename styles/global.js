@@ -19,8 +19,8 @@ html {
   font-size: 62.5%; //1rem = 10px
   overflow-x: hidden;
   @media (max-width: 450px) {
-    /* font-size: 50%; //1rem = 10px */
-
+    font-size: 50%; //1rem = 10px
+    width: 100vw;
   
  }
   
@@ -32,6 +32,7 @@ body {
   font-family: "Hammersmith One", sans-serif;
  @media (max-width: 450px) {
   position:absolute;
+  width: 100vw;
 
  }
 }
