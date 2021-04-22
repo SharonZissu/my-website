@@ -16,7 +16,7 @@ function AboutMe() {
         description="Failure will never overtake me if my determination to succeed is strong enough."
       />
       <Flex
-        mt={[12]}
+        mt={[12, 8]}
         direction={["row", "column"]}
         align={["flex-start", "center"]}
         justify={["flex-start", "center"]}
