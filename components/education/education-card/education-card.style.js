@@ -23,6 +23,8 @@ export const Card = styled.div`
   @media (max-width: 415px) {
     flex-direction: column;
     margin-bottom: 0;
+    width: 80%;
+
     :not(:last-child) {
       margin-bottom: 12rem;
     }
@@ -36,7 +38,7 @@ export const Years = styled.div`
   position: relative;
   @media (max-width: 415px) {
     width: 100%;
-    height: 14rem;
+    height: auto;
     text-align: center;
   }
   span {
