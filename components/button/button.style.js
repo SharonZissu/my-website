@@ -19,7 +19,7 @@ export const Button = styled.button`
     }
   }
   @media (max-width: 415px) {
-    padding: 1.4rem 6rem;
+    padding: 1.4rem 2rem;
     margin-bottom: 3rem;
     span {
       width: 130px;

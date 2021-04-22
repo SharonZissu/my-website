@@ -8,6 +8,12 @@ export const Details = styled.div`
   line-height: 1;
   position: relative;
   top: -1rem;
+
+  @media (max-width: 415px) {
+    margin-top: 6rem;
+    margin-left: 0;
+    align-items: center;
+  }
 `;
 
 export const Title = styled.h2`
@@ -44,4 +50,8 @@ export const Summary = styled.p`
   margin-top: 4rem;
   line-height: 1.6;
   width: 60rem;
+  @media (max-width: 415px) {
+    padding: 0rem 4rem;
+    text-align: center;
+  }
 `;

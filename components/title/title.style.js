@@ -16,6 +16,12 @@ export const Container = styled.div`
     font-size: 21rem;
     font-family: "Hammersmith One", sans-serif;
     font-weight: bold;
+    @media (max-width: 415px) {
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 20;
+      top: -17rem;
+    }
   }
 
   & :after {
@@ -26,6 +32,17 @@ export const Container = styled.div`
     bottom: 0.5rem;
     left: ${({ width }) => (width ? "85%" : "60%")};
     background-color: ${({ width }) => (width ? "white" : "#b7b7b7")};
+    @media (max-width: 415px) {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 415px) {
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
   }
 `;
 export const Title = styled.h1`
@@ -34,6 +51,9 @@ export const Title = styled.h1`
   font-family: "Hammersmith One", sans-serif;
   color: ${({ color }) => (color ? "white" : "#b7b7b7")};
   text-transform: uppercase;
+  @media (max-width: 415px) {
+    font-size: 7rem;
+  }
 `;
 
 export const Description = styled.p`
@@ -43,4 +63,11 @@ export const Description = styled.p`
   right: ${({ color }) => (color ? "-63.5rem" : "-32.5rem")};
   width: 82rem;
   font-family: "Hammersmith One", sans-serif;
+  @media (max-width: 415px) {
+    left: 50%;
+    transform: translateX(-50%);
+
+    right: auto;
+    width: 70%;
+  }
 `;
