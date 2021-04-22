@@ -19,7 +19,7 @@ html {
   font-size: 62.5%; //1rem = 10px
   overflow-x: hidden;
   @media (max-width: 415px) {
-    font-size: 40%; //1rem = 10px
+    font-size: 40%; //1rem = 6.4px
     width: 100vw;
  }
   
