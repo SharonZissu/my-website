@@ -16,8 +16,10 @@ export const Container = styled.div`
   @media (max-width: 415px) {
     /* width: 47rem;
     height: 57rem; */
-    width: 301px;
-    height: 400px;
+    /* width: 301px;
+    height: 400px; */
+    height: 62.5rem;
+    width: 47rem;
     top: 40%;
     left: 50%;
     padding: 0;
