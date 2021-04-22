@@ -21,7 +21,8 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       z-index: 20;
-      top: ${({ width }) => (width ? "-20rem" : "-13rem")};
+      top: -13rem;
+      /* top: ${({ width }) => (width ? "-20rem" : "-13rem")}; */
     }
   }
 
@@ -37,7 +38,8 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
-      bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")};
+      bottom: 4.5rem;
+      /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
     }
   }
 
@@ -55,7 +57,8 @@ export const Title = styled.h1`
   text-transform: uppercase;
   @media (max-width: 415px) {
     font-size: 7rem;
-    width: ${({ color }) => (color ? "50%" : "100%")};
+    /* width: ${({ color }) => (color ? "50%" : "100%")}; */
+    width: 100%;
     text-align: center;
     margin: 0 auto;
   }
@@ -73,6 +76,6 @@ export const Description = styled.p`
     transform: translateX(-50%);
 
     right: auto;
-    width: 80%;
+    /* width: 80%; */
   }
 `;
