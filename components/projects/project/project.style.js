@@ -17,7 +17,7 @@ export const Project = styled.div`
     align-items: center;
     justify-content: center;
     left: 0;
-    margin-bottom: 15rem;
+    margin-bottom: 12rem;
   }
 `;
 
@@ -25,7 +25,7 @@ export const ImageContainer = styled.div`
   height: ${({ type }) => (type === "iphone" ? "65rem" : "43.9rem")};
   width: ${({ type }) => (type === "iphone" ? "33rem" : "55rem")};
   @media (max-width: 415px) {
-    margin-bottom: 2rem;
+    width: ${({ type }) => (type === "iphone" ? "33rem" : "85%")};
   }
 `;
 export const Name = styled.h3`
@@ -33,6 +33,7 @@ export const Name = styled.h3`
   font-size: 2.8rem;
   @media (max-width: 415px) {
     text-align: center;
+    width: 100%;
   }
 `;
 
@@ -44,6 +45,8 @@ export const Description = styled.p`
   width: 45rem;
   @media (max-width: 415px) {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
   }
 `;
 
