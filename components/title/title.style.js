@@ -74,8 +74,7 @@ export const Description = styled.p`
   @media (max-width: 415px) {
     left: 50%;
     transform: translateX(-50%);
-
     right: auto;
-    /* width: 80%; */
+    width: 80%;
   }
 `;
