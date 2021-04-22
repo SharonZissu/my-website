@@ -17,7 +17,7 @@ export const Project = styled.div`
     align-items: center;
     justify-content: center;
     left: 0;
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
   }
 `;
 
@@ -60,5 +60,6 @@ export const Technologie = styled.span`
   }
   @media (max-width: 415px) {
     text-align: center;
+    font-size: 2rem;
   }
 `;
