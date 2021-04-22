@@ -21,7 +21,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       z-index: 20;
-      top: -13rem;
+      top: ${({ width }) => (width ? "-20rem" : "-13rem")};
     }
   }
 
@@ -37,7 +37,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
-      bottom: 4.5rem;
+      bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")};
     }
   }
 
@@ -54,9 +54,10 @@ export const Title = styled.h1`
   color: ${({ color }) => (color ? "white" : "#b7b7b7")};
   text-transform: uppercase;
   @media (max-width: 415px) {
-    font-size: ${({ color }) => (color ? "6rem" : "7rem")};
-    /* font-size: 7rem; */
-    /* width: 50%; */
+    font-size: 7rem;
+    width: ${({ color }) => (color ? "50%" : "100%")};
+    text-align: center;
+    margin: 0 auto;
   }
 `;
 
