@@ -23,15 +23,24 @@ export const By = styled.h3`
   color: #d8bf25;
   text-transform: uppercase;
   font-size: 1.4rem;
+  @media (max-width: 415px) {
+    font-size: 2.2rem;
+  }
 `;
 export const Name = styled.h2`
   color: white;
   font-size: 1.7rem;
   text-align: center;
+  @media (max-width: 415px) {
+    font-size: 2.7rem;
+  }
 `;
 export const Hours = styled.span`
   color: #d8bf25;
   font-size: 1.3rem;
+  @media (max-width: 415px) {
+    font-size: 2rem;
+  }
 `;
 
 export const UdmeyIconContainer = styled.div``;

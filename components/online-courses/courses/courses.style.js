@@ -26,6 +26,8 @@ export const InProgressCourses = styled(Courses)`
     padding-left: 0;
     width: 100%;
     margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
