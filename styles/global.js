@@ -40,6 +40,8 @@ section {
   /* width: 100vw; */
   @media (max-width: 415px) {
     padding: 0;
+  overflow-x: hidden;
+
  }
 }
 

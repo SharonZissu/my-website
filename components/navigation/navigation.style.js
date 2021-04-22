@@ -10,6 +10,9 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 415px) {
+    display: none;
+  }
 `;
 
 export const Links = styled.ul`

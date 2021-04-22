@@ -14,8 +14,10 @@ export const Container = styled.div`
   align-items: flex-start;
   font-family: "Hammersmith One", sans-serif;
   @media (max-width: 415px) {
-    width: 47rem;
-    height: 57rem;
+    /* width: 47rem;
+    height: 57rem; */
+    width: 301px;
+    height: 356px;
     top: 40%;
     left: 50%;
     padding: 2rem 1rem 2rem 4rem;
