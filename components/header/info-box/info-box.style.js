@@ -20,6 +20,8 @@ export const Container = styled.div`
     height: 356px;
     top: 40%;
     left: 50%;
-    padding: 2rem 1rem 2rem 4rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
   }
 `;

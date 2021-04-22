@@ -14,12 +14,15 @@ export const Button = styled.button`
   cursor: pointer;
   svg {
     margin-right: 2rem;
+    @media (max-width: 415px) {
+      margin-right: 0;
+    }
   }
   @media (max-width: 415px) {
     padding: 1.4rem 6rem;
     margin-bottom: 3rem;
     span {
-      width: 20rem;
+      width: 130px;
     }
   }
 `;
