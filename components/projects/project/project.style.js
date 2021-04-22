@@ -7,16 +7,33 @@ export const Project = styled.div`
   position: ${({ position }) => position};
   :not(:last-child) {
     margin-right: 3rem;
+    @media (max-width: 415px) {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 415px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    margin-bottom: 15rem;
   }
 `;
 
 export const ImageContainer = styled.div`
   height: ${({ type }) => (type === "iphone" ? "65rem" : "43.9rem")};
   width: ${({ type }) => (type === "iphone" ? "33rem" : "55rem")};
+  @media (max-width: 415px) {
+    margin-bottom: 2rem;
+  }
 `;
 export const Name = styled.h3`
   color: white;
   font-size: 2.8rem;
+  @media (max-width: 415px) {
+    text-align: center;
+  }
 `;
 
 export const Description = styled.p`
@@ -25,6 +42,9 @@ export const Description = styled.p`
 
   font-size: 2rem;
   width: 45rem;
+  @media (max-width: 415px) {
+    text-align: center;
+  }
 `;
 
 export const Technologie = styled.span`
@@ -32,5 +52,8 @@ export const Technologie = styled.span`
   color: #d8bf25;
   :not(:last-child) {
     margin-right: 2rem;
+  }
+  @media (max-width: 415px) {
+    text-align: center;
   }
 `;

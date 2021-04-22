@@ -36,7 +36,11 @@ function Project({
       >
         <Styled.Name>{name}</Styled.Name>
         <Styled.Description>{description}</Styled.Description>
-        <Flex width="60%" mt={[1]} justify={id === 2 && ["flex-end"]}>
+        <Flex
+          width={["60%", "100%"]}
+          mt={[1]}
+          justify={id === 2 ? ["flex-end", "center"] : ["strech", "center"]}
+        >
           {technologies.map((tech) => (
             <Styled.Technologie key={tech}>{tech}</Styled.Technologie>
           ))}
