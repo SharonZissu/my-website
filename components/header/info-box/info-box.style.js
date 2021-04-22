@@ -20,7 +20,7 @@ export const Container = styled.div`
     height: 400px; */
     height: 65%;
     width: 80%;
-    top: 40%;
+    top: 50%;
     left: 50%;
     padding: 0;
     align-items: center;
