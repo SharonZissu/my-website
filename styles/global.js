@@ -20,8 +20,8 @@ html {
   overflow-x: hidden;
   @media (max-width: 450px) {
     font-size: 50%; //1rem = 10px
-    width: 100vw;
-  
+    position:absolute;
+    zoom: 50%;
  }
   
 }
@@ -32,7 +32,6 @@ body {
   font-family: "Hammersmith One", sans-serif;
  @media (max-width: 450px) {
   position:absolute;
-  width: 100vw;
 
  }
 }
