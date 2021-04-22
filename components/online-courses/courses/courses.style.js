@@ -20,6 +20,10 @@ export const InProgressCourses = styled(Courses)`
   justify-content: flex-start;
   margin-top: 0;
   padding-left: 1.6rem;
+  @media (max-width: 415px) {
+    margin-left: 0;
+    width: 100%;
+  }
 `;
 
 export const H3 = styled.h3`
