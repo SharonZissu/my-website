@@ -13,7 +13,7 @@ function Projects() {
         title="Projects"
         before={"P"}
         top={-17}
-        description="Working on new projects gives you the opportunity to learn and absorb new things."
+        description="Working on new projects gives you the opportunity to learn and absorb new things"
       />
       <Flex mt={[14]} ml={[12]} align={["flex-end"]} justify={["center"]}>
         <Project

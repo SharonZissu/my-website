@@ -10,7 +10,7 @@ function Career() {
         title="My Career"
         before={"M"}
         top={-1}
-        description="Goals should never be easy, they should force you to Work, even if they are uncomfortable at the time."
+        description="Goals should never be easy, they should force you to Work, even if they are uncomfortable at the time"
       />
       <Flex ml={[5]} mt={[18]} width={["82%"]} justify={["flex-end"]}>
         <Styled.Summary>

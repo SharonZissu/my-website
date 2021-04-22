@@ -13,7 +13,7 @@ function AboutMe() {
         title="About Me"
         before={"A"}
         top={-17}
-        description="Failure will never overtake me if my determination to succeed is strong enough."
+        description="Failure will never overtake me if my determination to succeed is strong enough"
       />
       <Flex
         mt={[12, 8]}

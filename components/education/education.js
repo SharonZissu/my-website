@@ -10,7 +10,7 @@ function Education() {
         title="Education"
         before={"E"}
         top={-1}
-        description="Life without knowledge is death in disguise."
+        description="Life without knowledge is death in disguise"
       />
       <EducationCards />
     </Styled.Container>

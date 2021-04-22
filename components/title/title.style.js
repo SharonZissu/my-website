@@ -70,6 +70,6 @@ export const Description = styled.p`
     transform: translateX(-50%);
 
     right: auto;
-    width: 70%;
+    width: 80%;
   }
 `;

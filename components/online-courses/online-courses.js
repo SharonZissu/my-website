@@ -9,7 +9,7 @@ function OnlineCourses() {
         title="Online Courses"
         before={"O"}
         top={1}
-        description="Confidence comes from discipline and training."
+        description="Confidence comes from discipline and training"
         width={75}
       />
       <Courses />

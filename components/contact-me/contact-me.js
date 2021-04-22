@@ -29,7 +29,7 @@ function ContactMe() {
         title="Contact Me"
         before={"C"}
         top={-1}
-        description="A Simple hello could lead to a million things."
+        description="A Simple hello could lead to a million things"
       />
       <Flex
         // ml={-30}

@@ -37,7 +37,7 @@ function Skills() {
         title="My Skills"
         before={"M"}
         top={-1}
-        description="The best way to sharpen your skills is to use them."
+        description="The best way to sharpen your skills is to use them"
       />
       <Flex
         direction={["row", "column"]}
