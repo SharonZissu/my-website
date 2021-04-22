@@ -7,6 +7,9 @@ export const Skill = styled.div`
   padding: 0 3rem 0 12rem;
   margin: 1.6rem 0;
   line-height: 2;
+  @media (max-width: 415px) {
+    padding: 0 3rem;
+  }
 `;
 
 export const Name = styled.h5`

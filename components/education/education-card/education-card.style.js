@@ -24,7 +24,6 @@ export const Card = styled.div`
     flex-direction: column;
     margin-bottom: 0;
     width: 80%;
-
     :not(:last-child) {
       margin-bottom: 7rem;
     }
@@ -67,16 +66,25 @@ export const Years = styled.div`
 export const Title = styled.h3`
   font-size: 3rem;
   color: #b7b7b7;
+  @media (max-width: 415px) {
+    text-align: center;
+    width: 100%;
+  }
 `;
 export const Location = styled.span`
   color: #a9a8a8;
   font-size: 2.4rem;
   margin-bottom: 2rem;
+  @media (max-width: 415px) {
+    text-align: center;
+    width: 100%;
+  }
 `;
 export const Summary = styled.p`
   color: #b7b7b7;
   font-size: 1.8rem;
   @media (max-width: 415px) {
     font-size: 2rem;
+    text-align: center;
   }
 `;
