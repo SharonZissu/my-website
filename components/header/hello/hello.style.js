@@ -24,4 +24,7 @@ export const Container = styled.div`
     border-right: 15px solid transparent;
     border-top: 20px solid #d8bf25;
   }
+  @media (max-width: 415px) {
+    margin: 4rem 0 2rem 2rem;
+  }
 `;

@@ -17,7 +17,7 @@ export const Container = styled.div`
     /* width: 47rem;
     height: 57rem; */
     width: 301px;
-    height: 356px;
+    height: 400px;
     top: 40%;
     left: 50%;
     padding: 0;
