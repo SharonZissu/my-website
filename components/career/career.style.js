@@ -9,6 +9,14 @@ export const Career = styled.section`
     ),
     url("/images/career/football3.png") !important;
   background-size: cover;
+
+  @media (max-width: 415px) {
+    background-image: linear-gradient(
+        rgba(14, 12, 15, 0.96),
+        rgba(14, 12, 15, 0.96)
+      ),
+      url("/images/career/football2.png") !important;
+  }
 `;
 
 export const Image = styled.div`
@@ -18,6 +26,10 @@ export const Image = styled.div`
   position: relative;
   z-index: 5;
   bottom: -4rem;
+
+  @media (max-width: 415px) {
+    bottom: 0;
+  }
 
   :before {
     content: "";
@@ -42,4 +54,10 @@ export const Summary = styled.p`
   /* text-align: end; */
   /* text-align: center; */
   /* margin: 15rem auto 0 auto; */
+  @media (max-width: 415px) {
+    width: 80%;
+    margin-top: 2rem;
+    margin-right: 0;
+    text-align: center;
+  }
 `;

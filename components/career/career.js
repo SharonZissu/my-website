@@ -12,7 +12,14 @@ function Career() {
         top={-1}
         description="Goals should never be easy, they should force you to Work, even if they are uncomfortable at the time"
       />
-      <Flex ml={[5]} mt={[18]} width={["82%"]} justify={["flex-end"]}>
+      <Flex
+        ml={[5]}
+        mt={[18]}
+        direction={["row", "column-reverse"]}
+        width={["82%"]}
+        justify={["flex-end", "center"]}
+        align={["strech", "center"]}
+      >
         <Styled.Summary>
           Playing professional football from a very young age shaped my
           personality and taught me many important lessons - teamwork,
