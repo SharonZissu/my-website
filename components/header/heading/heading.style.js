@@ -17,7 +17,7 @@ export const Span = styled.span`
   font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "8rem")};
   font-weight: bold;
   @media (max-width: 415px) {
-    font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "5rem")};
+    font-size: ${({ fontSize }) => (fontSize ? `${fontSize - 1}rem` : "4rem")};
   }
 `;
 
