@@ -54,7 +54,9 @@ export const Title = styled.h1`
   color: ${({ color }) => (color ? "white" : "#b7b7b7")};
   text-transform: uppercase;
   @media (max-width: 415px) {
-    font-size: 7rem;
+    font-size: ${({ color }) => (color ? "6rem" : "7rem")};
+    /* font-size: 7rem; */
+    /* width: 50%; */
   }
 `;
 
