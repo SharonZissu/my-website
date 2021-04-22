@@ -9,6 +9,10 @@ export const Courses = styled.div`
   flex-wrap: wrap;
   margin-top: 10rem;
   margin-left: 24rem;
+  @media (max-width: 415px) {
+    margin-left: 0;
+    width: 100%;
+  }
 `;
 
 export const InProgressCourses = styled(Courses)`

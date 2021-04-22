@@ -10,6 +10,11 @@ export const Course = styled.div`
   transition: all 0.4s;
   z-index: 1;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  @media (max-width: 415px) {
+    width: 29rem;
+    height: 15.9rem;
+    margin: 1.2rem;
+  }
   & ::after {
     content: "";
     height: 100%;
@@ -26,6 +31,9 @@ export const Course = styled.div`
   }
   &:hover {
     transform: scale(1.1);
+    @media (max-width: 415px) {
+      transform: scale(1.05);
+    }
   }
 `;
 
@@ -34,4 +42,8 @@ export const ImageContainer = styled.div`
   z-index: 5;
   width: 30rem;
   height: 16.9rem;
+  @media (max-width: 415px) {
+    width: 29rem;
+    height: 15.9rem;
+  }
 `;
