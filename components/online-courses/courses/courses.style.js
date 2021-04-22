@@ -13,6 +13,7 @@ export const Courses = styled.div`
     margin-left: 0;
     width: 100%;
     margin-top: 6rem;
+    margin-bottom: 5rem;
   }
 `;
 
@@ -24,7 +25,7 @@ export const InProgressCourses = styled(Courses)`
   @media (max-width: 415px) {
     padding-left: 0;
     width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 `;
 
@@ -33,4 +34,9 @@ export const H3 = styled.h3`
   font-size: 3rem;
   width: 78rem;
   margin: 2rem 0 2rem 27rem;
+  @media (max-width: 415px) {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
 `;
