@@ -12,8 +12,8 @@ export const Career = styled.section`
 
   @media (max-width: 415px) {
     background-image: linear-gradient(
-        rgba(14, 12, 15, 0.8),
-        rgba(14, 12, 15, 0.8)
+        rgba(14, 12, 15, 0.85),
+        rgba(14, 12, 15, 0.85)
       ),
       url("/images/career/football2.png") !important;
   }

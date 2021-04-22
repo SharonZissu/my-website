@@ -36,7 +36,7 @@ function ContactMe() {
         align={["flex-start"]}
         direction={["column"]}
         position={["relative"]}
-        margin={["10rem auto"]}
+        margin={["10rem auto", "8rem auto"]}
         left={[-10, 0]}
         width={["65rem", "80%"]}
       >
