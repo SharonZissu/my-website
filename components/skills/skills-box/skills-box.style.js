@@ -5,6 +5,10 @@ export const SkillsBox = styled.div`
   height: ${({ height }) => `${height}rem`};
   background-color: ${({ bgColor }) => bgColor};
   padding-bottom: 3rem;
+  @media (max-width: 415px) {
+    width: ${({ title }) =>
+      title === "Soft" || title === "Langauges" ? "100%" : "80%"};
+  }
 `;
 
 export const Title = styled.h3`

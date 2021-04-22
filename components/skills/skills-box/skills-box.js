@@ -3,7 +3,7 @@ import * as Styled from "./skills-box.style";
 
 function SkillsBox({ title, items, bgColor, height }) {
   return (
-    <Styled.SkillsBox bgColor={bgColor} height={height}>
+    <Styled.SkillsBox bgColor={bgColor} height={height} title={title}>
       <Styled.Title bgColor={bgColor}>{title}</Styled.Title>
       {items.map((item) => (
         <Skill
