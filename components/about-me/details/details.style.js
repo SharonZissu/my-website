@@ -53,5 +53,6 @@ export const Summary = styled.p`
   @media (max-width: 415px) {
     padding: 0rem 4rem;
     text-align: center;
+    width: 85%;
   }
 `;

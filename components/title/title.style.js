@@ -20,7 +20,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       z-index: 20;
-      top: -17rem;
+      top: -10rem;
     }
   }
 
@@ -36,6 +36,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
+      bottom: 4.5rem;
     }
   }
 
