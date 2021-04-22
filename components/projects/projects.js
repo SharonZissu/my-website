@@ -15,7 +15,7 @@ function Projects() {
         top={-17}
         description="Working on new projects gives you the opportunity to learn and absorb new things."
       />
-      <Flex mt={14} ml={12} align="flex-end" justify="center">
+      <Flex mt={[14]} ml={[12]} align={["flex-end"]} justify={["center"]}>
         <Project
           id={p1.id}
           name={p1.name}
@@ -37,11 +37,11 @@ function Projects() {
         />
       </Flex>
       <Flex
-        justify="center"
-        align="flex-end"
-        direction="column"
-        mt={13}
-        width="77%"
+        justify={["center"]}
+        align={["flex-end"]}
+        direction={["column"]}
+        mt={[13]}
+        width={["77%"]}
       >
         <Project
           id={p3.id}

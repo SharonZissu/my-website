@@ -21,7 +21,7 @@ function ContactMeForm({ onSubmit }) {
 
   return (
     <form onSubmit={onSubmitHandler}>
-      <Flex direction="column">
+      <Flex direction={["column"]}>
         <Styled.Input
           type="text"
           id="name"

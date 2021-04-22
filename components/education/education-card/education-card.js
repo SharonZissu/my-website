@@ -15,12 +15,12 @@ function EducationCard({ title, location, years, summary }) {
         <span>{formattedYears}</span>
       </Styled.Years>
       <Flex
-        direction="column"
-        align="flex-start"
-        justify="flex-start"
-        width="100%"
-        mt={0.6}
-        ml={3}
+        direction={["column"]}
+        align={["flex-start"]}
+        justify={["flex-start"]}
+        width={["100%"]}
+        mt={[0.6]}
+        ml={[3]}
       >
         <Styled.Title>{title}</Styled.Title>
         <Styled.Location>

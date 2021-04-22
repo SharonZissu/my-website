@@ -33,14 +33,14 @@ function ContactMe() {
       />
       <Flex
         // ml={-30}
-        align="flex-start"
-        direction="column"
-        position="relative"
-        margin="10rem auto"
-        left={-10}
-        width="65rem"
+        align={["flex-start"]}
+        direction={["column"]}
+        position={["relative"]}
+        margin={["10rem auto"]}
+        left={[-10]}
+        width={["65rem"]}
       >
-        <Flex width="100%" justify="space-between">
+        <Flex width={["100%"]} justify={["space-between"]}>
           <Styled.TopImageContainer>
             <Image
               src="/images/contact-me/sharon-anima.png"

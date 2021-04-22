@@ -18,7 +18,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px
   overflow-x: hidden;
-  @media (max-width: 450px) {
+  @media (max-width: 415px) {
     font-size: 40%; //1rem = 10px
     width: 100vw;
  }
@@ -38,7 +38,9 @@ body {
 section {
   padding: 10rem 0 10rem 40rem;
   /* width: 100vw; */
-  
+  @media (max-width: 415px) {
+    padding: 0;
+ }
 }
 
 /* img {

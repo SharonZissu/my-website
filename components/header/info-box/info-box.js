@@ -12,7 +12,13 @@ function InfoBox() {
     <Styled.Container>
       <Hello />
       <Heading />
-      <Flex mt={5} align="center" justify="space-between" width="80%">
+      <Flex
+        mt={[5, 20]}
+        direction={["row", "column"]}
+        align={["center"]}
+        justify={["space-between"]}
+        width={["80%"]}
+      >
         <Button>
           <FontAwesomeIcon icon={faDownload} />
           <span>Download CV</span>

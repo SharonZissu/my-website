@@ -15,4 +15,11 @@ export const Button = styled.button`
   svg {
     margin-right: 2rem;
   }
+  @media (max-width: 415px) {
+    padding: 1.4rem 6rem;
+    margin-bottom: 3rem;
+    span {
+      width: 20rem;
+    }
+  }
 `;

@@ -39,13 +39,13 @@ function Skills() {
         top={-1}
         description="The best way to sharpen your skills is to use them."
       />
-      <Flex mt={12} ml={24}>
+      <Flex mt={[12]} ml={[24]}>
         <SkillsBox
           title="Professional"
           items={PROFFESIONAL}
           bgColor="#111111"
         />
-        <Flex direction="column">
+        <Flex direction={["column"]}>
           <SkillsBox title="Langauges" items={LANGUAGES} bgColor="#d8bf25" />
           <SkillsBox
             title="Soft"

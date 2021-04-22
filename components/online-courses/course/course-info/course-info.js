@@ -7,7 +7,7 @@ function CourseInfo({ name, by, hours, imgName, link }) {
     <Styled.CourseInfo>
       <Styled.By>{by}</Styled.By>
       <Styled.Name>{name}</Styled.Name>
-      <Flex justify="space-between" align="center" width="100%">
+      <Flex justify={["space-between"]} align={["center"]} width={["100%"]}>
         <Styled.Hours>Total Hours: {hours}</Styled.Hours>
         <Styled.UdmeyIconContainer>
           <Image

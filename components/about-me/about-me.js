@@ -15,7 +15,7 @@ function AboutMe() {
         top={-17}
         description="Failure will never overtake me if my determination to succeed is strong enough."
       />
-      <Flex mt={12} align="flex-start" justify="flex-start">
+      <Flex mt={[12]} align={["flex-start"]} justify={["flex-start"]}>
         <ProfileImage />
         <Details />
       </Flex>

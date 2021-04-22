@@ -27,16 +27,16 @@ function Project({
         />
       </Styled.ImageContainer>
       <Flex
-        direction={"column"}
-        pl={(id === 1 || id === 3) && 2}
-        pr={id === 2 && 2}
-        align={id === 2 && "flex-end"}
-        justify={id === 2 && "flex-end"}
-        textAlign={id === 2 && "end"}
+        direction={["column"]}
+        pl={(id === 1 || id === 3) && [2]}
+        pr={id === 2 && [2]}
+        align={id === 2 && ["flex-end"]}
+        justify={id === 2 && ["flex-end"]}
+        textAlign={id === 2 && ["end"]}
       >
         <Styled.Name>{name}</Styled.Name>
         <Styled.Description>{description}</Styled.Description>
-        <Flex width="60%" mt={1} justify={id === 2 && "flex-end"}>
+        <Flex width="60%" mt={[1]} justify={id === 2 && ["flex-end"]}>
           {technologies.map((tech) => (
             <Styled.Technologie key={tech}>{tech}</Styled.Technologie>
           ))}

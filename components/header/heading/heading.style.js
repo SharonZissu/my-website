@@ -16,9 +16,15 @@ export const Span = styled.span`
   color: ${({ color }) => (color ? color : "white")};
   font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "8rem")};
   font-weight: bold;
+  @media (max-width: 415px) {
+    font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "5rem")};
+  }
 `;
 
 export const Position = styled(Span)`
   letter-spacing: 1rem;
   font-weight: initial;
+  @media (max-width: 415px) {
+    letter-spacing: 0.6rem;
+  }
 `;
