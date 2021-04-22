@@ -24,6 +24,7 @@ export const InProgressCourses = styled(Courses)`
   @media (max-width: 415px) {
     padding-left: 0;
     width: 100%;
+    margin-bottom: 4rem;
   }
 `;
 

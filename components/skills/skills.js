@@ -42,8 +42,9 @@ function Skills() {
       <Flex
         direction={["row", "column"]}
         align={["strech", "center"]}
-        mt={[12]}
+        mt={[12, 8]}
         ml={[24, 0]}
+        mb={[0, 5]}
       >
         <SkillsBox
           title="Professional"
