@@ -18,17 +18,16 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px
   overflow-x: hidden;
-  /* @media (max-width: 450px) {
-    font-size: 50%; //1rem = 10px
-    position:absolute;
-    zoom: 50%;
- } */
+  @media (max-width: 450px) {
+    font-size: 20%; //1rem = 10px
+    width: 100vw;
+ }
   
 }
 body {
   line-height: 1.6;
   min-height: 100vh;
-  
+  width: 100vw;
   font-family: "Hammersmith One", sans-serif;
  /* @media (max-width: 450px) {
   position:absolute;
@@ -38,13 +37,13 @@ body {
 
 section {
   padding: 10rem 0 10rem 40rem;
-  width: 100%;
+  /* width: 100vw; */
   
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 `;
