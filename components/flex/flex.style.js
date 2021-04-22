@@ -19,6 +19,7 @@ export const Flex = styled.div`
   position: ${({ position }) => position && position[0]};
   left: ${({ left }) => left && `${left[0]}rem`};
 
+  border-bottom: ${({ borderBottom }) => borderBottom};
   @media (max-width: 415px) {
     flex-direction: ${({ direction }) => direction && direction[1]};
     align-items: ${({ align }) => align && align[1]};

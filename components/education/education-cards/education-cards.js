@@ -28,7 +28,7 @@ const DUMMY_CARDS = [
   },
   {
     id: 4,
-    years: ["Present"],
+    years: ["From 2018"],
     title: "Online Courses",
     location: "Udemy",
     summary:

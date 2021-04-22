@@ -30,8 +30,9 @@ export const Link = styled.li`
   color: white;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  width: 100%;
-  text-align: center;
+  margin-left: 2rem;
+  /* padding: 1rem; */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  width: 50%;
+  /* text-align: center; */
 `;
