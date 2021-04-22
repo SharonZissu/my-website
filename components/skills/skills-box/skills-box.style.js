@@ -6,6 +6,7 @@ export const SkillsBox = styled.div`
   background-color: ${({ bgColor }) => bgColor};
   padding-bottom: 3rem;
   @media (max-width: 415px) {
+    height: auto;
     width: ${({ title }) =>
       title === "Soft" || title === "Langauges" ? "100%" : "80%"};
   }
