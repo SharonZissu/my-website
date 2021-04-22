@@ -9,12 +9,23 @@ export const Card = styled.div`
   margin-bottom: 4rem;
   :nth-child(2n + 1) {
     margin-right: 2rem;
+    @media (max-width: 415px) {
+      margin-right: 0;
+    }
   }
   :nth-child(2) div:first-child {
     background-color: #d8bf25;
   }
   :nth-child(2) h3:first-child {
     color: #d8bf25;
+  }
+
+  @media (max-width: 415px) {
+    flex-direction: column;
+    margin-bottom: 0;
+    :not(:last-child) {
+      margin-bottom: 12rem;
+    }
   }
 `;
 
@@ -23,7 +34,11 @@ export const Years = styled.div`
   width: 8rem;
   background-color: #898989;
   position: relative;
-
+  @media (max-width: 415px) {
+    width: 100%;
+    height: 14rem;
+    text-align: center;
+  }
   span {
     position: absolute;
     top: 50%;
@@ -36,6 +51,14 @@ export const Years = styled.div`
     letter-spacing: 0.2rem;
     font-weight: bold;
     color: white;
+
+    @media (max-width: 415px) {
+      transform: initial;
+      font-size: 3.2rem;
+      position: relative;
+      left: auto;
+      top: auto;
+    }
   }
 `;
 

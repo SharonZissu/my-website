@@ -12,4 +12,10 @@ export const Cards = styled.div`
   /* & div:nth-child(2) {
     background-color: #d8bf25;
   } */
+
+  @media (max-width: 415px) {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
 `;

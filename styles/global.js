@@ -39,10 +39,9 @@ section {
   padding: 10rem 0 10rem 40rem;
   /* width: 100vw; */
   @media (max-width: 415px) {
-    padding: 10rem 0 5rem 0;
-  overflow-x: hidden;
-
- }
+    padding: 5rem 0 5rem 0;
+    overflow-x: hidden;
+  }
 }
 
 /* img {

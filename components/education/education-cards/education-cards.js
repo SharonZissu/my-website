@@ -12,7 +12,7 @@ const DUMMY_CARDS = [
   },
   {
     id: 2,
-    years: [2017, 2020],
+    years: [2016, 2019],
     title: "B.Sc. Computer Science",
     location: "Holon Institute of Technology",
     summary:

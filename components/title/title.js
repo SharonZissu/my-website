@@ -5,7 +5,7 @@ function Title({ title, before, top, description, width }) {
     <Styled.Container before={before} top={top} width={width}>
       <Styled.Title color={width}>{title}</Styled.Title>
       {description && (
-        <Styled.Description color={width}>{description}</Styled.Description>
+        <Styled.Description color={width}>"{description}"</Styled.Description>
       )}
     </Styled.Container>
   );

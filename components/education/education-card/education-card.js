@@ -20,7 +20,7 @@ function EducationCard({ title, location, years, summary }) {
         justify={["flex-start"]}
         width={["100%"]}
         mt={[0.6]}
-        ml={[3]}
+        ml={[3, 0]}
       >
         <Styled.Title>{title}</Styled.Title>
         <Styled.Location>
