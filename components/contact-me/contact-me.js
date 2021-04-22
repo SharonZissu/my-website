@@ -37,10 +37,15 @@ function ContactMe() {
         direction={["column"]}
         position={["relative"]}
         margin={["10rem auto"]}
-        left={[-10]}
-        width={["65rem"]}
+        left={[-10, 0]}
+        width={["65rem", "80%"]}
       >
-        <Flex width={["100%"]} justify={["space-between"]}>
+        <Flex
+          width={["100%"]}
+          justify={["space-between"]}
+          align={["strech", "flex-end"]}
+          pb={[0, 3]}
+        >
           <Styled.TopImageContainer>
             <Image
               src="/images/contact-me/sharon-anima.png"

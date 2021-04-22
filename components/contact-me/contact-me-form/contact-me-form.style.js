@@ -1,5 +1,9 @@
 import styled, { css } from "styled-components";
 
+export const Form = styled.form`
+  width: 100%;
+`;
+
 const inputStyles = css`
   width: 65rem;
   margin-bottom: 1.4rem;
@@ -13,6 +17,9 @@ const inputStyles = css`
   position: relative;
   z-index: 3;
   color: #5e5e5e;
+  @media (max-width: 415px) {
+    width: 100%;
+  }
 `;
 
 export const Input = styled.input`
@@ -35,4 +42,8 @@ export const Button = styled.button`
   border: none;
   cursor: pointer;
   border-radius: 1px;
+
+  @media (max-width: 415px) {
+    width: 100%;
+  }
 `;

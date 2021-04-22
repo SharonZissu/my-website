@@ -20,8 +20,8 @@ function ContactMeForm({ onSubmit }) {
   }
 
   return (
-    <form onSubmit={onSubmitHandler}>
-      <Flex direction={["column"]}>
+    <Styled.Form onSubmit={onSubmitHandler}>
+      <Flex direction={["column"]} width={["auto", "100%"]}>
         <Styled.Input
           type="text"
           id="name"
@@ -45,7 +45,7 @@ function ContactMeForm({ onSubmit }) {
         />
         <Styled.Button>Send</Styled.Button>
       </Flex>
-    </form>
+    </Styled.Form>
   );
 }
 
