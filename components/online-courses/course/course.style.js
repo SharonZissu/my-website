@@ -11,8 +11,8 @@ export const Course = styled.div`
   z-index: 1;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   @media (max-width: 415px) {
-    width: 29rem;
-    height: 15.9rem;
+    width: 185px;
+    height: 101px;
     margin: 1.2rem;
   }
   & ::after {
@@ -43,7 +43,7 @@ export const ImageContainer = styled.div`
   width: 30rem;
   height: 16.9rem;
   @media (max-width: 415px) {
-    width: 29rem;
-    height: 15.9rem;
+    width: 185px;
+    height: 101px;
   }
 `;
