@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: ${({ width }) => (width ? `${width}rem` : "55rem")};
   height: 11.6rem;
 
+  //letter before the title
   & :before {
     content: "${({ before }) => before}";
     position: absolute;
@@ -20,7 +21,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       z-index: 20;
-      top: -10rem;
+      top: -13rem;
     }
   }
 
