@@ -26,7 +26,7 @@ export const Card = styled.div`
     width: 80%;
 
     :not(:last-child) {
-      margin-bottom: 12rem;
+      margin-bottom: 7rem;
     }
   }
 `;
@@ -76,4 +76,7 @@ export const Location = styled.span`
 export const Summary = styled.p`
   color: #b7b7b7;
   font-size: 1.8rem;
+  @media (max-width: 415px) {
+    font-size: 2rem;
+  }
 `;
