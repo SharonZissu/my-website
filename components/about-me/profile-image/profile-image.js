@@ -9,6 +9,7 @@ function ProfileImage() {
         alt="sharon profile image"
         width={851}
         height={1080}
+        layout="responsive"
       />
     </Styled.Image>
   );

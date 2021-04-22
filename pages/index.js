@@ -8,13 +8,14 @@ import Projects from "../components/projects/projects";
 import Career from "../components/career/career";
 import ContactMe from "../components/contact-me/contact-me";
 import Head from "next/head";
+
 function Home() {
   return (
     <Fragment>
-      {/* <Head>
+      <Head>
         <title>My page title</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head> */}
+      </Head>
       <Header />
       <AboutMe />
       <Education />

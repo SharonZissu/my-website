@@ -18,11 +18,11 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px
   overflow-x: hidden;
-  @media (max-width: 450px) {
+  /* @media (max-width: 450px) {
     font-size: 50%; //1rem = 10px
     position:absolute;
     zoom: 50%;
- }
+ } */
   
 }
 body {
@@ -30,10 +30,10 @@ body {
   min-height: 100vh;
   
   font-family: "Hammersmith One", sans-serif;
- @media (max-width: 450px) {
+ /* @media (max-width: 450px) {
   position:absolute;
 
- }
+ } */
 }
 
 section {
