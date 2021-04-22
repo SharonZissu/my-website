@@ -26,6 +26,7 @@ export const ImageContainer = styled.div`
   width: ${({ type }) => (type === "iphone" ? "33rem" : "55rem")};
   @media (max-width: 415px) {
     width: ${({ type }) => (type === "iphone" ? "33rem" : "85%")};
+    height: ${({ type }) => (type === "iphone" ? "65rem" : "280.95px")};
   }
 `;
 export const Name = styled.h3`
@@ -47,6 +48,7 @@ export const Description = styled.p`
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    font-size: 2.4rem;
   }
 `;
 
