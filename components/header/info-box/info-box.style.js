@@ -18,8 +18,8 @@ export const Container = styled.div`
     height: 57rem; */
     /* width: 301px;
     height: 400px; */
-    height: 62.5rem;
-    width: 47rem;
+    height: 50%;
+    width: 80%;
     top: 40%;
     left: 50%;
     padding: 0;
