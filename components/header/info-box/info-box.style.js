@@ -24,7 +24,7 @@ export const Container = styled.div`
     height: 45%;
     width: 80%;
     top: auto;
-    bottom: -12%;
+    bottom: -15%;
     left: 50%;
     padding: 0;
     align-items: center;
