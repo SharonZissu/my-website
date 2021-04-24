@@ -33,10 +33,10 @@ export const Image = styled.div`
   left: -50rem;
 
   @media (max-width: 415px) {
-    height: 900px;
-    width: 675px;
-    left: 42%;
-    top: 52%;
+    height: 800px;
+    width: 600px;
+    left: 47%;
+    top: 48%;
     transform: translate(-50%, -50%);
   }
 `;
