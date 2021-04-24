@@ -17,20 +17,20 @@ export const Image = styled.div`
 
   //first image
   /* height: 170rem;
-  width: 127.5rem; */
-  /* left: -40.5rem; */
-  /* top: -15rem; */
+  width: 127.5rem;
+  left: -40.5rem;
+  top: -15rem; */
 
   //second image
-  height: 200rem;
+  /* height: 200rem;
   width: 150rem;
   left: -63rem;
-  top: -30rem;
+  top: -30rem; */
 
-  /* top: -20rem;
-  height: 200rem;
-  width: 150rem;
-  left: -70rem; */
+  top: -20rem;
+  height: 180rem;
+  width: 135rem;
+  left: -50rem;
 
   @media (max-width: 415px) {
     height: 900px;
