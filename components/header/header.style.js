@@ -5,7 +5,9 @@ export const Container = styled.section`
   background-image: linear-gradient(to right, #111111 52.05%, #d8bf25 52.1%);
   position: relative;
   @media (max-width: 415px) {
-    background-image: linear-gradient(to bottom, #d8bf25 32.05%, #111111 32.1%);
+    /* background-image: linear-gradient(to bottom, #d8bf25 32.05%, #111111 32.1%); */
+    background-color: #111111;
+    background-image: initial;
     /* background-image: linear-gradient(to bottom, #111111 32.05%, #d8bf25 32.1%); */
     overflow-y: hidden;
   }
@@ -32,10 +34,10 @@ export const Image = styled.div`
   left: -70rem; */
 
   @media (max-width: 415px) {
-    height: 550px;
-    width: 325px;
-    left: 50%;
-    top: 65%;
+    height: 900px;
+    width: 675px;
+    left: 42%;
+    top: 48%;
     transform: translate(-50%, -50%);
   }
 `;
