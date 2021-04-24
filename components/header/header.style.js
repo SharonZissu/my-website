@@ -6,9 +6,8 @@ export const Container = styled.section`
   position: relative;
   @media (max-width: 415px) {
     /* background-image: linear-gradient(to bottom, #d8bf25 32.05%, #111111 32.1%); */
-    background-color: #111111;
-    background-image: initial;
-    /* background-image: linear-gradient(to bottom, #111111 32.05%, #d8bf25 32.1%); */
+    /* background-image: initial; */
+    background-image: linear-gradient(to bottom, #111111 40.85%, #d8bf25 40.9%);
     overflow-y: hidden;
   }
 `;
@@ -37,7 +36,7 @@ export const Image = styled.div`
     height: 900px;
     width: 675px;
     left: 42%;
-    top: 48%;
+    top: 52%;
     transform: translate(-50%, -50%);
   }
 `;
