@@ -19,6 +19,7 @@ const LINKS = [
   { name: "Projects", icon: faTasks },
   { name: "Career", icon: faFutbol },
   { name: "Contact", icon: faPhoneSquareAlt },
+  { name: "May Habeiza", icon: faPhoneSquareAlt },
 ];
 function Navigation() {
   return (

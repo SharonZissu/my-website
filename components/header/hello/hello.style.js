@@ -12,7 +12,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 0 0 2rem 2rem;
+  margin: 0 0 2rem 10rem;
   ::after {
     content: "";
     position: absolute;

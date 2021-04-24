@@ -7,6 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   text-align: left;
   letter-spacing: 0.2rem;
+  margin-left: 3rem;
 `;
 export const Title = styled.h1`
   text-transform: uppercase;

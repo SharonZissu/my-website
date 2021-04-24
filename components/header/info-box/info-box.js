@@ -15,6 +15,7 @@ function InfoBox() {
       <Flex
         mt={[5, 20]}
         mb={[0, 4]}
+        ml={[3, 0]}
         direction={["row", "column"]}
         align={["center"]}
         justify={["space-between"]}

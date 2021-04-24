@@ -13,10 +13,23 @@ export const Container = styled.section`
 
 export const Image = styled.div`
   position: relative;
-  height: 100rem;
-  width: 59.1rem;
-  left: -20rem;
-  top: -6rem;
+
+  //first image
+  /* height: 170rem;
+  width: 127.5rem; */
+  /* left: -40.5rem; */
+  /* top: -15rem; */
+
+  //second image
+  height: 200rem;
+  width: 150rem;
+  left: -63rem;
+  top: -30rem;
+
+  /* top: -20rem;
+  height: 200rem;
+  width: 150rem;
+  left: -70rem; */
 
   @media (max-width: 415px) {
     height: 550px;
