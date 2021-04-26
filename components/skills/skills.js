@@ -2,6 +2,7 @@ import * as Styled from "./skills.style";
 import Title from "../title/title";
 import { Flex } from "../flex/flex.style";
 import SkillsBox from "./skills-box/skills-box";
+import Border from "../border/border";
 
 const PROFFESIONAL = [
   { id: 1, name: "HTML(5)", percentage: 85 },
@@ -33,6 +34,7 @@ const SOFT = [
 function Skills() {
   return (
     <Styled.Skills id="skills">
+      <Border />
       <Title
         title="My Skills"
         before={"M"}

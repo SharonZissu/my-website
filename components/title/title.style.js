@@ -34,23 +34,20 @@ export const Container = styled.div`
     bottom: 0.5rem;
     left: ${({ width }) => (width ? "85%" : "60%")};
     background-color: ${({ width }) => (width ? "white" : "#b7b7b7")};
+    border: 0;
+    background-color: initial;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    );
     @media (max-width: 415px) {
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
       bottom: 4.5rem;
-      /* visibility: hidden; */
-      /* margin: 0 auto;
-  margin-top: 40px; */
-      /* width: 20%; */
-      border: 0;
-      background-color: initial;
-      background-image: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0.75),
-        rgba(255, 255, 255, 0)
-      );
+
       /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
     }
   }

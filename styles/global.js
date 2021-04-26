@@ -1,10 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
-$zig: #B6B5EB;
-$zag: #AB78AB;
-$bg: transparent;
-$page-bg: lighten($zag, 35);
+
 
 * {
   margin: 0;
@@ -15,6 +12,7 @@ $page-bg: lighten($zag, 35);
 *::before {
   box-sizing: inherit;
 }
+*:before, *:after { content: ''; }
 
 *:focus{
   outline: none;
@@ -52,7 +50,7 @@ section {
     z-index: 500;
   }
   @media (max-width: 415px) {
-    padding: 5rem 0 5rem 0;
+    padding: 1rem 0 5rem 0;
     overflow-x: hidden;
   }
 }
@@ -66,4 +64,11 @@ a {
   height: auto;
 } */
 
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
 `;
