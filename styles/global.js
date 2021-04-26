@@ -50,7 +50,7 @@ section {
     z-index: 500;
   }
   @media (max-width: 415px) {
-    padding: 1rem 0 5rem 0;
+    padding: 0 0 5rem 0;
     overflow-x: hidden;
   }
 }
@@ -66,8 +66,8 @@ a {
 
 hr {
   border: 0;
-  margin: 1.35em auto;
-  max-width: 100%;
+  margin: 0 auto 12rem auto;
+  max-width: 90%;
   background-position: 50%;
   box-sizing: border-box;
 }
