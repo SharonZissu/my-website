@@ -21,10 +21,10 @@ export const Container = styled.div`
     /* width: 301px;
     height: 400px; */
     /* background-color: rgba(216, 191, 37, 0.75); */
-    height: 55%;
+    height: 53%;
     width: 85%;
     top: auto;
-    bottom: -23%;
+    bottom: -25%;
     left: 50%;
     padding: 0;
     align-items: center;
