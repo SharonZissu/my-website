@@ -41,7 +41,7 @@ export const Image = styled.div`
   @media (max-width: 415px) {
     height: 800px;
     width: 600px;
-    left: 47%;
+    left: 42%;
     top: 52%;
     transform: translate(-50%, -50%);
   }
