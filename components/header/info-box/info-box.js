@@ -21,10 +21,12 @@ function InfoBox() {
         justify={["space-between"]}
         width={["80%"]}
       >
-        <Button>
-          <FontAwesomeIcon icon={faDownload} />
-          <span>Download CV</span>
-        </Button>
+        <a href="/files/resume.pdf" download>
+          <Button>
+            <FontAwesomeIcon icon={faDownload} />
+            <span>Download CV</span>
+          </Button>
+        </a>
         <Links />
       </Flex>
     </Styled.Container>

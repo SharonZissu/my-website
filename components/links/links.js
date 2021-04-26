@@ -16,7 +16,9 @@ function Links() {
         </a>
       </Styled.Icon>
       <Styled.Icon>
-        <FontAwesomeIcon icon={faEnvelope} />
+        <a href="mailto:sharonzissu10@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
       </Styled.Icon>
       <Styled.Icon>
         <a target="_blank" href="https://github.com/SharonZissu/">

@@ -18,6 +18,10 @@ export const Button = styled.button`
       margin-right: 0;
     }
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
   @media (max-width: 415px) {
     padding: 1.4rem 2rem;
     margin-bottom: 3rem;
