@@ -14,7 +14,7 @@ export const Container = styled.section`
     /* background-image: radial-gradient(#d8bf25, #111111); */
     outline: 0.6rem solid #af9b22;
     border: 1rem solid #111111;
-    box-shadow: 10px 10px rgba(255, 255, 255, 0.35);
+    box-shadow: 20px 20px rgba(255, 255, 255, 0.35);
     overflow-y: hidden;
     z-index: 2000 !important;
   }
@@ -45,7 +45,7 @@ export const Image = styled.div`
     width: 600px;
     left: 42%;
     /* top: 52%; */
-    top: 320px;
+    top: 345px;
     transform: translate(-50%, -50%);
   }
 `;
