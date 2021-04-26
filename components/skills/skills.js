@@ -42,7 +42,7 @@ function Skills() {
       <Flex
         direction={["row", "column"]}
         align={["strech", "center"]}
-        mt={[12, 8]}
+        mt={[12, 2]}
         ml={[24, 0]}
         mb={[0, 5]}
       >

@@ -12,7 +12,7 @@ export const Courses = styled.div`
   @media (max-width: 415px) {
     margin-left: 0;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
   }
 `;

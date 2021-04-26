@@ -22,7 +22,7 @@ export const Container = styled.div`
     height: 400px; */
     /* background-color: rgba(216, 191, 37, 0.75); */
     height: 50%;
-    width: 85%;
+    width: 90%;
     top: auto;
     bottom: -20%;
     left: 50%;
