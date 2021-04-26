@@ -8,6 +8,9 @@ export const Container = styled.div`
   text-align: left;
   letter-spacing: 0.2rem;
   margin-left: 7rem;
+  @media (max-width: 415px) {
+    margin: 0 auto;
+  }
 `;
 export const Title = styled.h1`
   text-transform: uppercase;
