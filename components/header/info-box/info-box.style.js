@@ -21,13 +21,13 @@ export const Container = styled.div`
     /* width: 301px;
     height: 400px; */
     /* background-color: rgba(216, 191, 37, 0.75); */
-    height: 53%;
+    height: 50%;
     width: 85%;
     top: auto;
-    bottom: -25%;
+    bottom: -20%;
     left: 50%;
     padding: 0;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
   }
 `;

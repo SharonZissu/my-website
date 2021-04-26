@@ -29,4 +29,7 @@ export const ArrowUp = styled.div`
   svg {
     cursor: pointer;
   }
+  @media (max-width: 415px) {
+    display: none;
+  }
 `;
