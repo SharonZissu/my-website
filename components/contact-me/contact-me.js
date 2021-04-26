@@ -24,7 +24,7 @@ function ContactMe() {
   }
 
   return (
-    <Styled.ContactMe>
+    <Styled.ContactMe id="contact">
       <Title
         title="Contact Me"
         before={"C"}

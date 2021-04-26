@@ -11,19 +11,28 @@ function Links() {
   return (
     <Styled.Container>
       <Styled.Icon>
-        <FontAwesomeIcon icon={faFacebookF} />
+        <a target="_blank" href="https://www.facebook.com/sharon.zissu/">
+          <FontAwesomeIcon icon={faFacebookF} />
+        </a>
       </Styled.Icon>
       <Styled.Icon>
         <FontAwesomeIcon icon={faEnvelope} />
       </Styled.Icon>
       <Styled.Icon>
-        <FontAwesomeIcon icon={faGithub} />
+        <a target="_blank" href="https://github.com/SharonZissu/">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </Styled.Icon>
       <Styled.Icon>
         <FontAwesomeIcon icon={faPhoneAlt} />
       </Styled.Icon>
       <Styled.Icon>
-        <FontAwesomeIcon icon={faLinkedinIn} />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/sharon-zissu-9b9812187/"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} />
+        </a>
       </Styled.Icon>
     </Styled.Container>
   );

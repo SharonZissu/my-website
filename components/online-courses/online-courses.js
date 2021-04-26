@@ -4,7 +4,7 @@ import * as Styled from "./online-courses.style";
 
 function OnlineCourses() {
   return (
-    <Styled.OnlineCourses>
+    <Styled.OnlineCourses id="courses">
       <Title
         title="Online Courses"
         before={"O"}

@@ -29,6 +29,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   font-family: "Hammersmith One", sans-serif;
+  background-color: #d8bf25;
  /* @media (max-width: 450px) {
   position:absolute;
 

@@ -7,7 +7,7 @@ import Navigation from "../navigation/navigation";
 
 function AboutMe() {
   return (
-    <Styled.Container>
+    <Styled.Container id="about">
       <Navigation />
       <Title
         title="About Me"

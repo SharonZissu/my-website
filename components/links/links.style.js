@@ -4,7 +4,7 @@ export const Container = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  cursor: pointer;
   li:nth-child(2) svg {
     color: #af9b22;
   }

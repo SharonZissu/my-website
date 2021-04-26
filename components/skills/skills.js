@@ -32,7 +32,7 @@ const SOFT = [
 
 function Skills() {
   return (
-    <Styled.Skills>
+    <Styled.Skills id="skills">
       <Title
         title="My Skills"
         before={"M"}

@@ -23,35 +23,41 @@ function Details() {
         </Styled.Span>
         <Styled.SpanNoBold>Holon, Israel.</Styled.SpanNoBold>
       </Styled.Detail>
+
       <Styled.Detail>
         <Styled.Span>
           <u>
-            <i>Address:</i>
+            <i>Degree:</i>
           </u>
         </Styled.Span>
-        <Styled.SpanNoBold>Holon, Israel.</Styled.SpanNoBold>
+        <Styled.SpanNoBold>B.Sc. Computer Science.</Styled.SpanNoBold>
       </Styled.Detail>
       <Styled.Detail>
         <Styled.Span>
           <u>
-            <i>Address:</i>
+            <i>Interests:</i>
           </u>
         </Styled.Span>
-        <Styled.SpanNoBold>Holon, Israel.</Styled.SpanNoBold>
+        <Styled.SpanNoBold>
+          sports, watching movies, traveling.
+        </Styled.SpanNoBold>
       </Styled.Detail>
       <Styled.Detail>
         <Styled.Span>
           <u>
-            <i>Address:</i>
+            <i>E-Mail:</i>
           </u>
         </Styled.Span>
-        <Styled.SpanNoBold>Holon, Israel.</Styled.SpanNoBold>
+        <Styled.SpanNoBold>sharonzissu10@gmail.com.</Styled.SpanNoBold>
       </Styled.Detail>
+
       <Styled.Summary>
         Highly motivated to succeed and wishing to enter the Hi-Tech industry.
-        With a Bachelor's degree in compuer science. Intuitive, deductive and
-        self-taught with attention to details and accuracy. Excellent
-        communication skills and interpersonal relations.
+        <br />
+        With a Bachelor's degree in compuer science.
+        <br /> Intuitive, deductive and self-taught with attention to details
+        and accuracy.
+        <br /> Excellent communication skills and interpersonal relations.
       </Styled.Summary>
     </Styled.Details>
   );

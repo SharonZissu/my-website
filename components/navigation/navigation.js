@@ -1,4 +1,5 @@
 import * as Styled from "./navigation.style";
+import { Link } from "react-scroll";
 import { Flex } from "../flex/flex.style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,7 +20,6 @@ const LINKS = [
   { name: "Projects", icon: faTasks },
   { name: "Career", icon: faFutbol },
   { name: "Contact", icon: faPhoneSquareAlt },
-  { name: "May Habeiza", icon: faPhoneSquareAlt },
 ];
 function Navigation() {
   return (
@@ -35,7 +35,11 @@ function Navigation() {
             p={[1]}
           >
             <FontAwesomeIcon size="2x" icon={icon} color="white" />
-            <Styled.Link>{name}</Styled.Link>
+            <Styled.Link>
+              <Link to={name.toLowerCase()} smooth={true}>
+                {name}
+              </Link>
+            </Styled.Link>
           </Flex>
         ))}
 

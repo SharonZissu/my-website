@@ -31,8 +31,6 @@ export const Link = styled.li`
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 2rem;
-  /* padding: 1rem; */
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  cursor: pointer;
   width: 50%;
-  /* text-align: center; */
 `;

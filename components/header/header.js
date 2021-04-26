@@ -5,7 +5,7 @@ import InfoBox from "./info-box/info-box";
 
 function Header() {
   return (
-    <Styled.Container>
+    <Styled.Container id="header">
       <Styled.Image>
         <Image src="/images/main-image4.png" alt="sharon image" layout="fill" />
       </Styled.Image>

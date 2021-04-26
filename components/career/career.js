@@ -5,7 +5,7 @@ import { Flex } from "../flex/flex.style";
 
 function Career() {
   return (
-    <Styled.Career>
+    <Styled.Career id="career">
       <Title
         title="My Career"
         before={"M"}

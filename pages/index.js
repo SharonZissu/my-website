@@ -8,21 +8,22 @@ import Projects from "../components/projects/projects";
 import Career from "../components/career/career";
 import ContactMe from "../components/contact-me/contact-me";
 import Head from "next/head";
+import ArrowUp from "../components/arrow-up/arrow-up";
 
 function Home() {
   return (
     <Fragment>
       <Head>
-        <title>My page title</title>
+        <title>Sharon Zissu</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <ArrowUp />
       <Header />
       <AboutMe />
       <Education />
       <Skills />
       <OnlineCourses />
       <Projects />
-      {/* <Interests /> */}
       <Career />
       <ContactMe />
     </Fragment>

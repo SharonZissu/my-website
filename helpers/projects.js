@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 1,
+    idName: "how-fast-are-u",
     name: "How Fast Are you",
     description: `A Game developed for the mobile, with ReactJS includes React Hooks, and styled-components.
       The target of the game is to touch from 1 to 50 as fast as you can.
@@ -12,10 +13,12 @@ export const projects = [
     imgHeight: 650,
     imgWidth: 330,
     titleLinkTheProject: "Let's play",
+    url: "https://how-fast-are-you.web.app/",
   },
 
   {
     id: 2,
+    idName: "pokemon",
     name: "Rock Paper Scissors - Pokemon",
     description: `A Game developed for the mobile, client-side with React JS, and server-side with Node JS and Socket.io.
       The target of the game is to to reach the opponent's flag and the rules of the fights is exactly like Rock, Paper and Scissors Game.`,
@@ -25,9 +28,11 @@ export const projects = [
     imgHeight: 650,
     imgWidth: 330,
     titleLinkTheProject: "Let's play",
+    url: "https://pokemon-zissu.web.app/",
   },
   {
     id: 3,
+    idName: "online-store",
     name: "Responsive Online Store",
     description: `client - React js includes React Hooks, React Router, and Redux.
       server - Node js with Express, MongoDB & Mongoose.
@@ -41,5 +46,6 @@ export const projects = [
     imgHeight: 439,
     imgWidth: 550,
     titleLinkTheProject: "Visit and shop",
+    url: "https://online-shop-73f91.web.app/",
   },
 ];

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const Project = styled.div`
   display: flex;
   flex-direction: ${({ direction }) => direction};
@@ -24,14 +23,21 @@ export const Project = styled.div`
 export const ImageContainer = styled.div`
   height: ${({ type }) => (type === "iphone" ? "65rem" : "43.9rem")};
   width: ${({ type }) => (type === "iphone" ? "33rem" : "55rem")};
+  transition: all 0.4s;
   @media (max-width: 415px) {
     width: ${({ type }) => (type === "iphone" ? "33rem" : "85%")};
     height: ${({ type }) => (type === "iphone" ? "65rem" : "280.95px")};
   }
 `;
 export const Name = styled.h3`
-  color: white;
   font-size: 2.8rem;
+
+  a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    z-index: 50;
+  }
   @media (max-width: 415px) {
     text-align: center;
     width: 100%;

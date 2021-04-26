@@ -5,7 +5,7 @@ import * as Styled from "./education.style";
 
 function Education() {
   return (
-    <Styled.Container>
+    <Styled.Container id="education">
       <Title
         title="Education"
         before={"E"}
