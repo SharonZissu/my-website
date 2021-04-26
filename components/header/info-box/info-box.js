@@ -13,7 +13,7 @@ function InfoBox() {
       <Hello />
       <Heading />
       <Flex
-        mt={[5, 1]}
+        mt={[5, 2]}
         mb={[0]}
         ml={[7]}
         direction={["row", "column"]}

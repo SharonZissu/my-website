@@ -26,7 +26,7 @@ export const Container = styled.div`
     top: 46%;
     bottom: -20%;
     left: -21%;
-    transform: rotate(-25deg);
+    transform: rotate(-15deg);
     padding: 0;
     /* align-items: center; */
     justify-content: center;
