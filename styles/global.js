@@ -1,5 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
+
+$zig: #B6B5EB;
+$zag: #AB78AB;
+$bg: transparent;
+$page-bg: lighten($zag, 35);
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +46,8 @@ section {
   padding: 10rem 0 10rem 40rem;
   /* width: 100vw; */
   position: relative;
+
+
   :not(:first-child) {
     z-index: 500;
   }

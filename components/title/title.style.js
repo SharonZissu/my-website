@@ -39,6 +39,18 @@ export const Container = styled.div`
       transform: translateX(-50%);
       width: 80%;
       bottom: 4.5rem;
+      /* visibility: hidden; */
+      /* margin: 0 auto;
+  margin-top: 40px; */
+      /* width: 20%; */
+      border: 0;
+      background-color: initial;
+      background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.75),
+        rgba(255, 255, 255, 0)
+      );
       /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
     }
   }
