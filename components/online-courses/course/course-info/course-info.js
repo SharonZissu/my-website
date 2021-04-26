@@ -10,12 +10,14 @@ function CourseInfo({ name, by, hours, imgName, link }) {
       <Flex justify={["space-between"]} align={["center"]} width={["100%"]}>
         <Styled.Hours>Total Hours: {hours}</Styled.Hours>
         <Styled.UdmeyIconContainer>
-          <Image
-            src="/images/logos/udemy-logo.png"
-            alt="udmey logo"
-            height={24}
-            width={30}
-          />
+          <a target="_blank" href={link}>
+            <Image
+              src="/images/logos/udemy-logo.png"
+              alt="udmey logo"
+              height={24}
+              width={30}
+            />
+          </a>
         </Styled.UdmeyIconContainer>
       </Flex>
     </Styled.CourseInfo>

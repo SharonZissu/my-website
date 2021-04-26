@@ -21,7 +21,7 @@ function InfoBox() {
         justify={["space-between"]}
         width={["80%"]}
       >
-        <a href="/files/resume.pdf" download>
+        <a target="_blank" href="/files/resume.pdf" download>
           <Button>
             <FontAwesomeIcon icon={faDownload} />
             <span>Download CV</span>

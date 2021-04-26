@@ -25,7 +25,7 @@ function Links() {
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </Styled.Icon>
-      <Styled.Icon>
+      <Styled.Icon icon="phone">
         <FontAwesomeIcon icon={faPhoneAlt} />
       </Styled.Icon>
       <Styled.Icon>
