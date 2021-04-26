@@ -21,13 +21,23 @@ export const Container = styled.div`
     /* width: 301px;
     height: 400px; */
     /* background-color: rgba(216, 191, 37, 0.75); */
+    height: 300px;
+    width: 157%;
+    top: 46%;
+    bottom: -20%;
+    left: -21%;
+    transform: rotate(-25deg);
+    padding: 0;
+    /* align-items: center; */
+    justify-content: center;
+  }
+`;
+
+/* 
     height: 50%;
     width: 90%;
     top: auto;
     bottom: -20%;
     left: 50%;
     padding: 0;
-    /* align-items: center; */
-    justify-content: center;
-  }
-`;
+*/
