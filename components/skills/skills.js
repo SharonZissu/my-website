@@ -34,7 +34,7 @@ const SOFT = [
 function Skills() {
   return (
     <Styled.Skills id="skills">
-      <Border />
+      {/* <Border /> */}
       <Title
         title="My Skills"
         before={"M"}

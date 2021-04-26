@@ -12,8 +12,9 @@ export const Container = styled.section`
     margin: 3rem;
     background-color: #111111;
     /* background-image: radial-gradient(#d8bf25, #111111); */
-    outline: 1.5rem solid #af9b22;
+    outline: 0.6rem solid #af9b22;
     border: 1rem solid #111111;
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.35);
     overflow-y: hidden;
     z-index: 2000 !important;
   }

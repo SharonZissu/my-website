@@ -6,7 +6,7 @@ import Border from "../border/border";
 function Education() {
   return (
     <Styled.Container id="education">
-      <Border />
+      {/* <Border /> */}
       <Title
         title="Education"
         before={"E"}
