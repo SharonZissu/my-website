@@ -15,6 +15,7 @@ export const Container = styled.section`
     outline: 1.5rem solid #af9b22;
     border: 1rem solid #111111;
     overflow-y: hidden;
+    z-index: 2000 !important;
   }
 `;
 

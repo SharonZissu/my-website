@@ -7,7 +7,7 @@ function ArrowUp() {
   return (
     <Styled.ArrowUp>
       <Link to="header" smooth={true}>
-        <FontAwesomeIcon icon={faArrowUp} size="7x" color="#d8bf25" />
+        <FontAwesomeIcon icon={faArrowUp} color="#d8bf25" />
       </Link>
     </Styled.ArrowUp>
   );
