@@ -9,7 +9,7 @@ export const Container = styled.section`
     background-image: initial;
 
     /* background-image: linear-gradient(to bottom, #111111 37.85%, #d8bf25 37.9%); */
-    margin: 4rem;
+    margin: 3rem;
     background-color: #111111;
     /* background-image: radial-gradient(#d8bf25, #111111); */
     outline: 2rem solid #af9b22;
@@ -42,7 +42,7 @@ export const Image = styled.div`
     height: 800px;
     width: 600px;
     left: 47%;
-    top: 48%;
+    top: 52%;
     transform: translate(-50%, -50%);
   }
 `;
