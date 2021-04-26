@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  height: 100vh;
+  height: 95vh;
   background-image: linear-gradient(to right, #111111 52.05%, #d8bf25 52.1%);
   position: relative;
   @media (max-width: 415px) {
@@ -14,7 +14,7 @@ export const Container = styled.section`
     /* background-image: radial-gradient(#d8bf25, #111111); */
     outline: 0.6rem solid #af9b22;
     /* border: 1rem solid #111111; */
-    box-shadow: 15px 15px rgba(255, 255, 255, 0.35);
+    /* box-shadow: 15px 15px rgba(255, 255, 255, 0.35); */
     overflow-y: hidden;
     z-index: 2000 !important;
   }
