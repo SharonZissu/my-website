@@ -43,7 +43,8 @@ export const Image = styled.div`
     height: 800px;
     width: 600px;
     left: 42%;
-    top: 52%;
+    /* top: 52%; */
+    top: 335px;
     transform: translate(-50%, -50%);
   }
 `;

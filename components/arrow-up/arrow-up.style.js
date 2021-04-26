@@ -35,7 +35,7 @@ export const ArrowUp = styled.div`
   bottom: 0;
   right: 0;
   z-index: 800;
-  padding: 2rem 1rem;
+  padding: 1rem;
   animation: ${upAndDown} 0.6s linear infinite;
   svg {
     cursor: pointer;
