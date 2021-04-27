@@ -26,6 +26,7 @@ export const Card = styled.div`
     width: 80%;
     :not(:last-child) {
       margin-bottom: 7rem;
+      margin-bottom: 80px;
     }
   }
 `;

@@ -4,14 +4,13 @@ import Details from "./details/details";
 import { Flex } from "../flex/flex.style";
 import * as Styled from "./about-me.style";
 import Navigation from "../navigation/navigation";
-import { isIOS } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 
 function AboutMe() {
   return (
     <Styled.Container id="about">
       <Navigation />
       <Title
-        isIOS={isIOS}
         title="About Me"
         before={"A"}
         top={-17}
