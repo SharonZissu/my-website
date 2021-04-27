@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { isIOS } from "react-device-detect";
 export const Container = styled.div`
   position: relative;
   width: ${({ width }) => (width ? `${width}rem` : "55rem")};
@@ -46,8 +46,8 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
-      /* bottom: 4.5rem; */
-      bottom: 9.6px;
+      bottom: ${isIOS ? "4.5rem" : "9.6px"}; //iphone
+      /* bottom: 9.6px; //samsung */
 
       /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
     }
