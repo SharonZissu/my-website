@@ -54,10 +54,17 @@ section {
 
   :not(:first-child) {
     z-index: 500;
-  }
+    
+    }
   @media (max-width: 415px) {
-    padding: 50px 0 50px 0;
+
+    /* padding: 50px 0 50px 0; */
     overflow-x: hidden;
+    padding:  0;
+    
+    :not(:first-of-type) {
+    padding: 50px 0 50px 0;
+    }
   }
 }
 
