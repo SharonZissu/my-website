@@ -23,7 +23,7 @@ export const Container = styled.div`
     /* background-color: rgba(216, 191, 37, 0.75); */
     height: 300px;
     width: 157%;
-    top: 46%;
+    top: 50%;
     bottom: -20%;
     left: -21%;
     transform: rotate(-15deg);

@@ -5,8 +5,6 @@ export const Container = styled.section`
   background-image: linear-gradient(to right, #111111 52.05%, #d8bf25 52.1%);
   position: relative;
   @media (max-width: 415px) {
-    height: 90vh;
-
     /* background-image: linear-gradient(to bottom, #d8bf25 32.05%, #111111 32.1%); */
     background-image: initial;
 
@@ -45,12 +43,12 @@ export const Image = styled.div`
   @media (max-width: 415px) {
     /* height: 800px;
     width: 600px; */
-    height: 700px;
-    width: 525px;
+    height: 750px;
+    width: 563px;
     /* left: 42%;
     top: 345px; */
-    left: 46%;
-    top: 320px;
+    left: 45%;
+    top: 362px;
 
     transform: translate(-50%, -50%);
   }
