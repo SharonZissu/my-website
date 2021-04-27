@@ -46,7 +46,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
-      bottom: ${isIOS ? "4.5rem" : "9.6px"}; //iphone
+      bottom: ${({ isIOS }) => (isIOS ? "4.5rem" : "9.6px")}; //iphone
       /* bottom: 9.6px; //samsung */
 
       /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */

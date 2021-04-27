@@ -1,8 +1,8 @@
 import * as Styled from "./title.style";
 
-function Title({ title, before, top, description, width }) {
+function Title({ isIOS, title, before, top, description, width }) {
   return (
-    <Styled.Container before={before} top={top} width={width}>
+    <Styled.Container isIOS={isIOS} before={before} top={top} width={width}>
       <Styled.Title color={width}>{title}</Styled.Title>
       {description && (
         <Styled.Description color={width}>"{description}"</Styled.Description>
