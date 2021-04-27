@@ -45,7 +45,8 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
-      /* bottom: ${({ isIOS }) => (isIOS ? "4.5rem" : "9.6px")}; //iphone */
+      display: none;
+      /* bottom: 4.5rem; //iphone */
       /* bottom: 9.6px; //samsung */
 
       /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
@@ -56,6 +57,7 @@ export const Container = styled.div`
     width: 100%;
     text-align: center;
     margin-top: 10rem;
+    line-height: 1.1;
   }
 `;
 export const Title = styled.h1`
@@ -64,6 +66,33 @@ export const Title = styled.h1`
   font-family: "Hammersmith One", sans-serif;
   color: ${({ color }) => (color ? "white" : "#b7b7b7")};
   text-transform: uppercase;
+  position: relative;
+  & :after {
+    content: "";
+    position: absolute;
+    width: 30rem;
+    height: 0.3rem;
+    bottom: 0.5rem;
+    left: ${({ width }) => (width ? "85%" : "60%")};
+    background-color: ${({ width }) => (width ? "white" : "#b7b7b7")};
+    border: 0;
+    background-color: initial;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    );
+    @media (max-width: 415px) {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      /* bottom: 4.5rem; //iphone */
+      /* bottom: 9.6px; //samsung */
+
+      /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
+    }
+  }
   @media (max-width: 415px) {
     font-size: 7rem;
     /* width: ${({ color }) => (color ? "50%" : "100%")}; */
