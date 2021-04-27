@@ -46,7 +46,7 @@ function Skills() {
         align={["strech", "center"]}
         mt={[12, 2]}
         ml={[24, 0]}
-        mb={[0, 5]}
+        mb={[0, 12]}
       >
         <SkillsBox
           title="Professional"

@@ -16,7 +16,7 @@ function Projects() {
         description="Working on new projects gives you the opportunity to learn and absorb new things"
       />
       <Flex
-        mt={[14, 4]}
+        mt={[14, 10]}
         ml={[12, 0]}
         direction={["row", "column"]}
         align={["flex-end"]}
