@@ -15,10 +15,14 @@ function Links() {
           <FontAwesomeIcon icon={faFacebookF} />
         </a>
       </Styled.Icon>
-      <Styled.Icon>
-        <a href="mailto:sharonzissu10@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} />
-        </a>
+      <Styled.Icon
+        onClick={() => {
+          console.log("clicked");
+          window.location.href =
+            "mailto:sharonzissu10@gmail.com?subject=Subject&body=message%20goes%20here";
+        }}
+      >
+        <FontAwesomeIcon icon={faEnvelope} />
       </Styled.Icon>
       <Styled.Icon>
         <a target="_blank" href="https://github.com/SharonZissu/">

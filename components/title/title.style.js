@@ -46,7 +46,8 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
-      bottom: 4.5rem;
+      /* bottom: 4.5rem; */
+      bottom: 9.6px;
 
       /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
     }
