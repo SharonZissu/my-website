@@ -3,7 +3,7 @@ export const Container = styled.div`
   position: relative;
   width: ${({ width }) => (width ? `${width}rem` : "55rem")};
   height: 11.6rem;
-
+  line-height: 1.2;
   //letter before the title
   & :before {
     content: "${({ before }) => before}";
@@ -20,36 +20,8 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
       z-index: 20;
-      top: -13rem;
+      top: -100px;
       /* top: ${({ width }) => (width ? "-20rem" : "-13rem")}; */
-    }
-  }
-
-  & :after {
-    content: "";
-    position: absolute;
-    width: 30rem;
-    height: 0.3rem;
-    bottom: 0.5rem;
-    left: ${({ width }) => (width ? "85%" : "60%")};
-    background-color: ${({ width }) => (width ? "white" : "#b7b7b7")};
-    border: 0;
-    background-color: initial;
-    background-image: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.75),
-      rgba(255, 255, 255, 0)
-    );
-    @media (max-width: 415px) {
-      left: 50%;
-      transform: translateX(-50%);
-      width: 80%;
-      display: none;
-      /* bottom: 4.5rem; //iphone */
-      /* bottom: 9.6px; //samsung */
-
-      /* bottom: ${({ top }) => (top ? "-5rem" : "4.5rem")}; */
     }
   }
 
@@ -57,7 +29,6 @@ export const Container = styled.div`
     width: 100%;
     text-align: center;
     margin-top: 10rem;
-    line-height: 1.1;
   }
 `;
 export const Title = styled.h1`
