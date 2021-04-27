@@ -56,7 +56,7 @@ section {
     z-index: 500;
   }
   @media (max-width: 415px) {
-    padding: 0 0 5rem 0;
+    padding: 50px 0 50px 0;
     overflow-x: hidden;
   }
 }
