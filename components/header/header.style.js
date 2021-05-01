@@ -36,9 +36,11 @@ export const Image = styled.div`
   top: -30rem; */
 
   top: -20rem;
-  height: 180rem;
-  width: 135rem;
-  left: -50rem;
+  /* height: 180rem;
+  width: 135rem; */
+  height: 160rem;
+  width: 120rem;
+  left: -46rem;
 
   @media (max-width: 415px) {
     /* height: 800px;
@@ -47,7 +49,7 @@ export const Image = styled.div`
     width: 563px;
     /* left: 42%;
     top: 345px; */
-    left: 45%;
+    left: 56%;
     top: 362px;
 
     transform: translate(-50%, -50%);

@@ -7,7 +7,7 @@ function Header() {
   return (
     <Styled.Container id="header">
       <Styled.Image>
-        <Image src="/images/main-image4.png" alt="sharon image" layout="fill" />
+        <Image src="/images/main-image5.png" alt="sharon image" layout="fill" />
       </Styled.Image>
       <InfoBox />
     </Styled.Container>
