@@ -52,8 +52,8 @@ export const Image = styled.div`
     width: 638px;
     /* left: 42%;
     top: 345px; */
-    left: 56%;
-    top: 350px;
+    left: 52%;
+    top: 355px;
 
     transform: translate(-50%, -50%);
   }
