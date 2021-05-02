@@ -45,12 +45,15 @@ export const Image = styled.div`
   @media (max-width: 415px) {
     /* height: 800px;
     width: 600px; */
-    height: 750px;
-    width: 563px;
+    /* height: 750px; */
+    /* width: 563px; */
+
+    height: 850px;
+    width: 638px;
     /* left: 42%;
     top: 345px; */
     left: 56%;
-    top: 362px;
+    top: 350px;
 
     transform: translate(-50%, -50%);
   }
